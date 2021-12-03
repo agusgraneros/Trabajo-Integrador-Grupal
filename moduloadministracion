@@ -1,0 +1,49 @@
+Administracion nula ()
+{
+  int opcion;
+	
+	do
+	{
+		system("cls");
+		printf("Modulo Administracion");
+		printf("\n=====================");
+		printf("\n1.- Registrar Profecional");
+		printf("\n2.- Registrar Usuario Recepcionista");
+		printf("\n3.- Atencion por Profecional");
+		printf("\n4.- Ranking de Profesionales por Atenciones");
+		printf("\n\n");
+		printf("\n5.- Cerrrar Aplicacion");
+		
+		printf("\nIngrese una opcion: ");
+		scanf("%d", &opcion);
+				
+		system("cls");
+		
+		switch(opcion)
+		{
+			case 1:
+				
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+			case 5:
+				
+				system("CLS");
+                printf("F i n d e l P r o g r a m a);
+                break;
+            
+			default:
+                system("CLS");
+                printf("Ha ingresado un numero no valido");
+                break;	
+		}		
+		
+	}while !=5;
+	
+}
+
+
